@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.6rem;
+  align-items: baseline;
+  font-size: 1.8rem;
+  font-family: 'Josefin Slab', serif;
+}
+
+.header h1 {
+  font-size: 6rem;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  flex-grow: 1;
+}
+
+.header strong {
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.header a {
+  font-style: italic;
+  color: #7eaee2;
+}
+
+.header select {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}

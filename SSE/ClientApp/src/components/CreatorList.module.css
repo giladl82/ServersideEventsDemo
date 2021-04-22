@@ -1,0 +1,91 @@
+.list {
+  font-size: 1.8rem;
+  padding: 0;
+  margin: 1.6rem 0 0 0;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 2fr 100px 1fr 100px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: stretch;
+}
+
+.number,
+.list time {
+  justify-content: center;
+}
+
+.list strong {
+  background-color: #ddd;
+  justify-content: center;
+}
+
+.number {
+  text-align: center;
+}
+
+.list strong,
+.list div,
+.list time {
+  border: solid 1px #666;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+.list button {
+  background: transparent;
+  border: none;
+  font-size: 4rem;
+  width: 100%;
+}
+
+.popup {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup > div {
+  width: 50vw;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup h2 {
+  font-size: 2.5rem;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  margin-left: 10%;
+}
+
+.popup form {
+  width: 80%;
+  margin: 10%;
+  flex-wrap:  wrap;
+}
+
+.popup form > div, 
+.popup input,
+.popup button {
+  margin: 0 0 2rem 0;
+  width: 100%;
+}
+
+.popup form > div {
+  margin: 0;
+}
+
+.popup button {
+  padding: 1rem;
+}

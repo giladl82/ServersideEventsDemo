@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSE", "SSE\SSE.csproj", "{0048F303-AC5D-43AF-92B7-A3EFC5EF955A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0048F303-AC5D-43AF-92B7-A3EFC5EF955A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0048F303-AC5D-43AF-92B7-A3EFC5EF955A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0048F303-AC5D-43AF-92B7-A3EFC5EF955A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0048F303-AC5D-43AF-92B7-A3EFC5EF955A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09746AFD-2E3D-4C7A-8DE4-7B152CF9BC28}
+	EndGlobalSection
+EndGlobal

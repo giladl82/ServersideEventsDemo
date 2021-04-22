@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&family=Nanum+Myeongjo&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
